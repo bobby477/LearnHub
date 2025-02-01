@@ -1,0 +1,40 @@
+.bottom{
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 15vh;
+
+}
+
+.para{
+    color: darkgray;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.btm{
+    color: chartreuse;
+    margin-bottom: 10px;
+
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.linkfooter{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.vertical{
+    color: darkgray;
+    
+}
+

@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+}
+
+.background-container{
+
+    background-color: black;
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.content{
+    margin: 15px;
+}
+
+.front{
+    border-radius: 10px;
+    background-color: #111827;
+    text-align: left;
+    background-size: cover;
+    padding: 100px;
+}
+
+.full{
+    border-radius: 10px;
+    background-color: #111827;
+    text-align: left;
+    background-size: cover;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.notes{
+    border-radius: 10px;
+    background-color: #111827;
+    text-align: center;
+    background-size: cover;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.headfront{
+    color: chartreuse;
+    text-decoration: underline;
+
+}
+
+.unorderlis{
+
+    color: white;
+    margin-top: 10px;
+    
+
+}
+.liorder:hover{
+    color: chartreuse;
+}
+
+.unorderlis3{
+
+    color: white;
+    margin-top: 10px;
+    text-align: left;
+
+}
+
+
+.liorder{
+    margin-top: 20px;
+}
+
+.ol{
+    color: chartreuse;
+    margin-top: 10px;
+}
+.head{
+    position: sticky;
+    top: 0;
+}
+@media only screen and (min-width:768px){
+
+    .background-container{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .head{
+        text-align: center;
+    }
+    .content{
+        display: flex;
+        width: 100%;
+    }
+
+    .front{
+        width: 50%;
+        height: 600px;
+        margin: 20px;
+        padding: 40px;
+    }
+    .full{
+        width: 50%;
+        height: 600px;
+        margin: 20px;
+        padding: 40px;
+    }
+    .forhr{
+        display: none;
+    }
+    .notes{
+        padding: 40px;
+    
+        
+    }
+
+    .liorder{
+        position: relative;
+        left: -10px;
+    
+    }
+    .unorderlis3{
+
+        color: white;
+        margin-top: 10px;
+        text-align: left;
+    
+    }
+
+    
+}

@@ -1,0 +1,59 @@
+
+
+.itemcontainer{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.nametitle{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.data{
+    margin-left: 30px;
+}
+
+.indexfirst{
+    background-color: chartreuse;
+    color: white;
+    width: 30px;
+    height:30px;
+    padding-top: 3px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+
+.delbtn{
+    background-color: brown;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 30px;
+    border: none;
+}
+
+.dataitem{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+span{
+    font-weight: lighter;
+}
+
+@media only screen and (min-width:768px){
+
+    .itemcontainer{
+        width: 30%;
+        margin: 10px;
+    }
+    
+}

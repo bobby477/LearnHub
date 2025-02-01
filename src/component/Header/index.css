@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+}
+
+.header-bg{
+    background-color: black;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style:solid;
+    border-width: 2px;
+    padding: 10px 16px;
+    border-color: white;
+    position: sticky;
+    top: 0;
+    
+
+    
+}
+
+.link{
+    text-decoration: none;
+
+}
+
+.head1{
+    /* margin-left: 10px; */
+    font-size: 20px;
+    color: chartreuse;
+}
+
+.head2{
+    /* margin-right: 10px; */
+    font-size: 15px;
+    color: white;
+}
+
+@media only screen and (min-width:768px){
+    .header-bg{
+        border-radius: 20px;
+        width: 1000px;
+        
+        
+        
+        
+    }
+
+}

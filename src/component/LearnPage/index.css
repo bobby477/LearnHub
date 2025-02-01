@@ -1,0 +1,252 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.learn-background{
+    height: 100%;
+    background-color: black;
+    background-size: cover;
+   
+}
+
+.startded-container{
+    background-image: url("D:\project\myapp\public\images\img\back1.jpg");
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.headlearn{
+    margin-top: 30px;
+    color: white;
+}
+
+.paralearn{
+    color: gray;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+
+.btn{
+    background-color: rgba(255, 251, 0, 0.884);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.second-container{
+    padding: 30px;
+    text-align: center;
+}
+
+.hdlearn{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.patner-col{
+    display: flex;
+    align-items: center;
+}
+
+.iimg{
+    width: 150px;
+    margin-top: 10px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+}
+
+.btn2{
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: chartreuse;
+    margin-top: 20px;
+}
+
+.third-container{
+    padding: 20px;
+    
+}
+
+.paratheme{
+    color: rgb(125, 211, 252);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.paracontent{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.unorder1{
+    list-style: none;
+    color: white;
+    margin-top: 30px;
+    text-align: left;
+
+}
+
+.liorder1{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.themehead{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.img2{
+    width: 40px;
+    margin-right: 10px;
+    align-self: flex-start;
+}
+
+.hh1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.dash{
+    width: 400px;
+}
+
+.fourth-container{
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.para1{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.btns{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.countbtns{
+    text-align: center;
+}
+
+.buttn{
+    padding: 10px;
+    background-color: chartreuse;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width:768px){
+    .learn-background{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        width: 100vw;
+        margin: 0px;
+        
+    }
+
+    hr{
+        display: none;
+    }
+    .startded-container{
+        width: 100%;
+        font-size: 30px;
+        
+    }
+    .second-container{
+        margin-top: 30px;
+    }
+    .hdlearn{
+        font-size: 50px;
+    }
+    .patner-col{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .first{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .second{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .iimg{
+        margin-right: 100px;
+    }
+    .third-container{
+        margin: 20px 0px 20px 0px;
+        
+    }
+    .paratheme{
+        font-weight: bold;
+        margin: 20px 0px 20px 0px;
+    }
+    .paracontent{
+        font-size: 30px;
+        margin: 20px 0px 20px 0px;
+
+    }
+    .imgandcerti{
+        display: flex;
+    }
+
+    .dash{
+        width: 600px;
+    }
+    .fourth-container{
+        display: flex;
+        width: 100%;
+        padding: 30px;
+        flex-direction: row;  
+        margin-left: 300px;
+    }
+
+    .para1{
+        font-size: 40px;
+        width: 50%;
+        margin-right: 20px;
+
+    }
+    .para2{
+        width: 50%;
+        font-size: 20px;
+    }
+
+
+}
